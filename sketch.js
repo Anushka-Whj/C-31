@@ -1,3 +1,29 @@
+var num=31;
+console.log(num)
+
+var text= "happy";
+console.log(text)
+
+var bool= true;
+console.log(bool)
+
+var object;
+console.log(object)
+object=null;
+console.log(object)
+
+var arr1=[7,12,31,8,45];
+console.log(arr1)
+console.log(arr1[2])
+
+var arr2=["Anushka",13,"Janya",12,"Sandhya",33]
+console.log(arr2[3])
+
+var arr3=[["apple","mango","banana"],["potato","cabbage","carrot"]]
+console.log(arr3[1][0])
+arr3.push(["samosa","burger","pizza"])
+console.log(arr3)
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
